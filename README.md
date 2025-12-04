@@ -7,19 +7,19 @@ The system includes **four motors**, **PT100 temperature sensors**, a **pressure
 
 ## 🔧 System Components
 
-* ** Motors (M1, M2, M3, M4)**
+* **Motors (M1, M2, M3, M4)**
 
   * M2 and M4 function as standby (reserve) motors.
-* ** PT100 Temperature Sensors**
+* **PT100 Temperature Sensors**
 
   * One installed on each motor for temperature monitoring.
-* ** Pressure Transmitter**
+* **Pressure Transmitter**
 
   * Measures the pressure of the Compressor Station.
-* ** Control Valve**
+* **Control Valve**
 
   * Directs compressed air into the workshop when needed.
-* ** Start /  Stop Push Buttons**
+* **Start /  Stop Push Buttons**
 
 ---
 
@@ -29,7 +29,7 @@ The system includes **four motors**, **PT100 temperature sensors**, a **pressure
 
 When the **Start** button is pressed:
 
-* ** Motor 1 (M1)** starts.
+* **Motor 1 (M1)** starts.
 * If the Compressor Station pressure is **below 3 bar**, ** Motor 3 (M3)** also starts.
 
 ---
@@ -41,7 +41,7 @@ When the **Start** button is pressed:
 If the temperature of **M1 or M3** exceeds **80°C**:
 
 * The overheated motor **shuts down**.
-* The corresponding ** Temperature Fault Signal** activates.
+* The corresponding **Temperature Fault Signal** activates.
 * The related **standby motor** starts automatically if its temperature is **below 75°C**:
 
   * M1 overheated → M2 may start
@@ -52,7 +52,7 @@ If the temperature of **M1 or M3** exceeds **80°C**:
 If a main motor cools down **below 75°C**:
 
 * It will **not** automatically restart.
-* The operator must press a **✔️ Confirmation Push Button** to bring it back into operation.
+* The operator must press a **Confirmation Push Button** to bring it back into operation.
 
 ---
 
@@ -60,9 +60,9 @@ If a main motor cools down **below 75°C**:
 
 If the Compressor Station pressure rises **above 8 bar**:
 
-* The ** High Pressure Alarm** turns on.
-* ** Motor 3 (M3)** shuts down.
-* The ** Control Valve** opens, directing compressed air into the workshop.
+* The **High Pressure Alarm** turns on.
+* **Motor 3 (M3)** shuts down.
+* The **Control Valve** opens, directing compressed air into the workshop.
 
 ---
 
